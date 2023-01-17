@@ -13,6 +13,14 @@ h2 {
     display:flex;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight:bold;
+}
+
 
 #hero-section {
     background-image: url("https://64.media.tumblr.com/cf4d2f83a6b5cd74bcdfecab71b99d00/tumblr_mp7wf5nMyE1rdnwxgo1_1280.png");
@@ -69,7 +77,7 @@ h2 {
     margin:100px auto;
     width:600px;
     padding:50px;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align:center;
     flex-direction:row;
     font-size:1.3rem;
@@ -77,6 +85,10 @@ h2 {
 }
 
 #card-img {
-    width:150px;
+    width:200px;
     border-radius:10px;
+}
+
+#guide-description {
+    padding:20px 40px;
 }
